@@ -1,0 +1,210 @@
+
+// plan-area-start
+.plan-area {
+    padding-top: 120px;
+}
+.plan-area-head{
+    h2 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 73px;
+        text-align: center;
+        color: #191A15;
+    }
+}
+
+.plan-area-head {
+    p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #A6A6A6;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+}
+
+.plan-button {
+    justify-content: center;
+    margin: 0 auto;
+    background: white;
+    width: 300px;
+    height: 65px;
+}
+
+.plan-button h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #191A15;
+}
+
+.plan-button a {
+    margin-left: 50px;
+}
+
+.plan-btn {margin-top: 5px;margin-bottom: 5px;}
+
+.plan-button a {
+    background: #54bd95;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-left: 85px;
+    color: $color-three;
+}
+.plan-button a:hover{
+    background-color: #2da678;
+}
+
+.plan-button h5 {
+    margin-top: 17px;
+}
+
+.plan-card-list {
+    background-color: #F9FAFB;
+}
+
+.plan-card-item {
+    background-color: #ffffff;
+    padding: 40px 40px;
+}
+
+.plan-card-list{
+    h5 {
+        padding: 13px;
+    }
+}
+
+.plan-card-list{
+    span {
+        padding: 17px;
+    }
+}
+
+.plan-card-list{
+    span{
+        i {
+            font-size: 12px;
+            font-weight: 400;
+            color: white;
+            background:$color-one;
+            width: 24px;
+            height: 24px;
+            text-align: center;
+            border-radius: 20px;
+            padding-top: 6px;
+        }
+    }
+}
+
+.plan-card-list {
+    padding-top: 22px, 0px;
+    padding: -1px 3px;
+    padding-top: 10px;
+}
+.plan-card-item{
+    h3 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 36px;
+        color: #191A15;
+    }
+}
+
+.plan-card-item{
+    h6 {
+        margin-right: 42px;
+    }
+}
+
+.plan-card-item{
+    p {
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 30px;
+        color: #A6A6A6;
+    }
+}
+.plan-card-item{
+    h2 {
+        font-weight: 700;
+        font-size: 34px;
+        padding-bottom: 14px;
+    }
+}
+    
+    .plan-card-item{
+        h6 {
+            i {
+                font-size: 24px;
+                color: #ddd;
+                font-weight: 500;
+                line-height: 0px;
+            }
+        }
+    }
+    
+.plan-card-item{
+    h6 {
+        i {
+            font-size: 24px;
+            color: #ddd;
+            line-height: 25px;
+        }
+    }
+}
+
+.plan-card-item{
+    box-shadow: 10px 10px 20px rgba(52, 49, 49, 0.2);
+    border-radius:40px;
+    h2 {
+        margin-top: -22px;
+    }
+}
+.plan-card-list {
+    border-radius: 20px;
+    padding-bottom: 50px;
+
+}
+.plan-card-list .card-btn {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cord-btn {
+    text-align: center;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.cord-btn a {
+    background:$color-three;
+    color: $color-one;
+    padding: 20px 77px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+}
+.plan-card-area {
+    padding-top: 77px;
+}
+.plan-card-item:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    background: rgba(84, 189, 149, 1);
+}
+.plan-card-item:hover h3, h2 {
+    color: white;
+}
+
+.plan-card-item:hover p {
+    color: white;
+}
+.plan-card-item:hover a{
+    background-color: $color-one;
+    color: $color-three;
+}
+// plan-area-end

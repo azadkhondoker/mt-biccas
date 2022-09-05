@@ -1,0 +1,39 @@
+// (max-width: 1599px)
+@include respond-below(c1600) {
+
+}
+
+// (max-width: 1399px) 
+@include respond-below(xxl) {
+
+}
+
+// (max-width: 1199px)
+@include respond-below(xl) {
+
+}
+
+// (min-width: 992px) and (max-width: 1199px)
+@include respond-between(lg, xl) {
+
+}
+
+// (max-width: 991px)
+@include respond-below(lg) {
+
+}
+
+// (max-width: 767px)
+@include respond-below(md) {
+
+}
+
+// (max-width: 575px)
+@include respond-below(sm) {
+
+}
+
+// (max-width: 424px)
+@include respond-below(xs) {
+
+}

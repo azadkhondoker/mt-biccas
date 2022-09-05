@@ -1,0 +1,32 @@
+/* color Css */
+
+/* Map color */
+$colors-name: (
+  color-one: rgba(84, 189, 149, 1),
+  color-two: rgba(0, 0, 0, 1),
+  color-three: rgba(255, 255, 255, 1),
+  color-four: rgba(22, 28, 40, 1),
+  color-five: rgba(166, 166, 166, 1),
+  color-six: rgba(15, 140, 233, 1),
+  color-seven: rgba(254, 233, 0, 1),
+  color-eight: rgba(249, 248, 254, 1),
+);
+
+:root {
+  @each $color-name, $value in $colors-name {
+    --#{$color-name}: #{$value};
+  }
+}
+
+$color-one: var(--color-one);
+$color-two: var(--color-two);
+$color-three: var(--color-three);
+$color-four: var(--color-four);
+$color-five: var(--color-five);
+$color-six: var(--color-six);
+$color-seven: var(--color-seven);
+$color-eight: var(--color-eight);
+
+/* Map color end */
+
+/* color Css end */
